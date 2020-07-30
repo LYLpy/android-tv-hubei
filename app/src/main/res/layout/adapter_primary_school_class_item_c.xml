@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--android:background="@drawable/selector_home_rel_01"-->
+<example.getlearn.tv.util.ImageViewUtils
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adapter_primary_school_class_item_c_imag"
+    android:scaleType="fitXY"
+    android:layout_margin="@dimen/sw_5dp"
+
+    android:padding="@dimen/sw_3dp"
+    android:layout_width="@dimen/sw_150dp"
+    android:layout_height="@dimen/sw_195dp">
+
+</example.getlearn.tv.util.ImageViewUtils>

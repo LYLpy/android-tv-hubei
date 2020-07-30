@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<example.getlearn.tv.util.LinearLayoutUtils
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/sw_3dp"
+    android:id="@+id/adapter_my_collectioon_item_ll"
+    android:layout_marginTop="@dimen/sw_10dp"
+    android:layout_marginLeft="@dimen/sw_10dp"
+    android:layout_marginRight="@dimen/sw_10dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="@dimen/sw_110dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/imga_ba_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sw_100dp">
+
+        <ImageView
+            android:id="@+id/adapter_my_collection_item_imag"
+            android:layout_width="@dimen/sw_98dp"
+            android:layout_height="@dimen/sw_98dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="@dimen/sw_12dp"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/sw_10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/adapter_my_collection_item_title"
+                android:textSize="@dimen/sw_12dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_white"
+                android:paddingTop="@dimen/sw_10dp"
+                android:layout_alignParentTop="true"
+                android:text="3, 铁棒磨成针"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adapter_my_collection_item_text"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/sw_10dp"
+                android:paddingBottom="@dimen/sw_10dp"
+                android:layout_alignParentBottom="true"
+                android:text="来自性概念书记。"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</example.getlearn.tv.util.LinearLayoutUtils>

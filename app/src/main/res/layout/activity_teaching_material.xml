@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:id="@+id/activity_teaching_material_ll_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.getlearn.tv.view.activity.TeachingMaterialActivity">
+    <!--android:background="@drawable/bg_05"-->
+
+    <ImageView
+        android:layout_marginLeft="@dimen/sw_45dp"
+        android:layout_marginTop="@dimen/sw_30dp"
+        android:background="@drawable/logo3_1"
+        android:layout_width="@dimen/sw_180dp"
+        android:layout_height="@dimen/sw_70dp" />
+
+<LinearLayout
+    android:clipChildren="false"
+    android:layout_marginTop="@dimen/sw_20dp"
+    android:layout_marginLeft="@dimen/sw_40dp"
+    android:layout_marginRight="@dimen/sw_40dp"
+    android:layout_marginBottom="@dimen/sw_30dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@drawable/ac_teaching_material_bg"
+        android:layout_width="@dimen/sw_190dp"
+        android:layout_height="match_parent">
+
+
+        <app.com.tvrecyclerview.TvRecyclerView
+            app:scrollMode="followScroll"
+            app:isAutoProcessFocus="false"
+            android:layout_marginTop="@dimen/sw_15dp"
+            android:layout_marginBottom="@dimen/sw_15dp"
+            android:layout_marginLeft="@dimen/sw_15dp"
+            android:layout_marginRight="@dimen/sw_15dp"
+            android:id="@+id/ac_teaching_material_rec_list"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></app.com.tvrecyclerview.TvRecyclerView>
+
+       <RelativeLayout
+           android:layout_alignParentBottom="true"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+
+
+           <ImageView
+                android:visibility="gone"
+               android:focusable="true"
+               android:layout_centerInParent="true"
+               android:layout_marginBottom="@dimen/sw_15dp"
+               android:layout_marginRight="@dimen/sw_15dp"
+               android:layout_marginLeft="@dimen/sw_15dp"
+               android:src="@drawable/selector_drawable_imag"
+               android:layout_width="@dimen/sw_70dp"
+               android:layout_height="@dimen/sw_70dp" />
+       </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:clipChildren="false"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<app.com.tvrecyclerview.TvRecyclerView
+    android:visibility="gone"
+    android:focusable="true"
+    android:clipChildren="false"
+    app:scrollMode="followScroll"
+    app:isAutoProcessFocus="false"
+    android:id="@+id/ac_teaching_material_rec_bate"
+    android:layout_marginRight="@dimen/sw_20dp"
+    android:layout_marginLeft="@dimen/sw_30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+</app.com.tvrecyclerview.TvRecyclerView>
+
+        <!--android:background="@drawable/selector_home_rel_01"-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:clipChildren="false"
+            android:layout_marginRight="@dimen/sw_20dp"
+            android:layout_marginLeft="@dimen/sw_30dp"
+            android:id="@+id/ac_teaching_material_rec_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:clipChildren="false"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <example.getlearn.tv.util.ImageViewUtils
+                    android:layout_marginTop="@dimen/sw_10dp"
+                    android:layout_marginBottom="@dimen/sw_10dp"
+                    android:focusable="true"
+                    android:layout_weight="1.5"
+                    android:padding="@dimen/sw_3dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/ac_teaching_material_imag_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <example.getlearn.tv.util.ImageViewUtils
+                    android:layout_marginTop="@dimen/sw_10dp"
+                    android:layout_marginBottom="@dimen/sw_10dp"
+                    android:focusable="true"
+                    android:padding="@dimen/sw_3dp"
+                    android:scaleType="fitXY"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="@dimen/sw_10dp"
+                    android:id="@+id/ac_teaching_material_imag_02"
+                    android:background="@drawable/selector_home_rel_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <LinearLayout
+                    android:layout_weight="2"
+                    android:clipChildren="false"
+                    android:layout_marginLeft="@dimen/sw_10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <example.getlearn.tv.util.ImageViewUtils
+                        android:layout_marginLeft="@dimen/sw_10dp"
+                        android:layout_marginRight="@dimen/sw_10dp"
+                        android:focusable="true"
+                        android:padding="@dimen/sw_3dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginBottom="@dimen/sw_5dp"
+                        android:layout_weight="1"
+                        android:id="@+id/ac_teaching_material_imag_03"
+                        android:clipChildren="false"
+                        android:background="@drawable/selector_home_rel_01"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <example.getlearn.tv.util.ImageViewUtils
+                        android:layout_marginLeft="@dimen/sw_10dp"
+                        android:layout_marginRight="@dimen/sw_10dp"
+                        android:focusable="true"
+                        android:padding="@dimen/sw_3dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="@dimen/sw_5dp"
+                        android:layout_weight="1"
+                        android:id="@+id/ac_teaching_material_imag_04"
+                        android:clipChildren="false"
+                        android:background="@drawable/selector_home_rel_01"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="@dimen/sw_5dp"
+    android:layout_weight="2"
+    android:clipChildren="false"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <example.getlearn.tv.util.ImageViewUtils
+        android:focusable="true"
+        android:padding="@dimen/sw_3dp"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:layout_marginRight="@dimen/sw_5dp"
+        android:id="@+id/ac_teaching_material_imag_05"
+        android:clipChildren="false"
+        android:background="@drawable/selector_home_rel_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <example.getlearn.tv.util.ImageViewUtils
+        android:focusable="true"
+        android:padding="@dimen/sw_3dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="@dimen/sw_5dp"
+        android:layout_weight="1"
+        android:id="@+id/ac_teaching_material_imag_06"
+        android:clipChildren="false"
+        android:background="@drawable/selector_home_rel_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <example.getlearn.tv.util.ImageViewUtils
+        android:padding="@dimen/sw_3dp"
+        android:scaleType="fitXY"
+        android:focusable="true"
+        android:layout_marginLeft="@dimen/sw_10dp"
+        android:layout_weight="1"
+        android:id="@+id/ac_teaching_material_imag_07"
+        android:clipChildren="false"
+        android:background="@drawable/selector_home_rel_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+</LinearLayout>

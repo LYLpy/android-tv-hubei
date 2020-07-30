@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">格灵名师</string>
+    <string name="app_string_catalog">目录</string>
+    <string name="app_string_up">上一页</string>
+    <string name="app_string_lower">下一页</string>
+    <string name="app_string_watch">观看记录</string>
+    <string name="app_string_dialog">您还未订购此视频，请按确定进行订购</string>
+    <string name="app_string_button_cancel">取消</string>
+    <string name="app_string_button_confirm">确定</string>
+
+</resources>

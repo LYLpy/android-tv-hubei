@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<example.getlearn.tv.util.FocuseImageButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adapter_number_one_class_base_imag"
+    android:scaleType="fitXY"
+    android:layout_margin="@dimen/sw_5dp"
+    android:background="@drawable/selector_home_rel_01"
+    android:padding="@dimen/sw_3dp"
+    android:layout_width="@dimen/sw_140dp"
+    android:layout_height="@dimen/sw_170dp">
+
+</example.getlearn.tv.util.FocuseImageButton>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:id="@+id/activity_vip_ll_layout_bg"
+    android:orientation="vertical"
+    tools:context="example.getlearn.tv.view.activity.VipActivity">
+    <!--android:background="@drawable/bg_vip_01"-->
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_marginRight="@dimen/sw_30dp"
+        android:layout_marginLeft="@dimen/sw_30dp"
+        android:layout_marginTop="@dimen/sw_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <example.getlearn.tv.util.VipTitleRecyclerView
+            android:id="@+id/activity_vip_title"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sw_50dp">
+        </example.getlearn.tv.util.VipTitleRecyclerView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="20"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_vip_ll_layout"
+
+            android:layout_alignParentTop="true"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+<!--            android:layout_alignParentStart="true"-->
+            <!--android:layout_height="@dimen/sw_380dp"-->
+
+            <LinearLayout
+                android:layout_width="@dimen/sw_250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sw_30dp"
+                android:background="@drawable/bg15_2"
+                android:orientation="horizontal"
+                android:padding="@dimen/sw_5dp">
+
+                <!--android:layout_marginTop="@dimen/sw_100dp"-->
+
+                <TextView
+                    android:id="@+id/activity_vip_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="505"
+                    android:textColor="@color/color_14"
+                    android:textSize="@dimen/sw_20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/activity_vip_rec_list"
+                android:clipChildren="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/sw_30dp"
+                android:focusable="true">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_marginLeft="@dimen/sw_30dp"
+            android:layout_marginRight="@dimen/sw_30dp"
+
+            android:id="@+id/activity_vip_ll_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:padding="@dimen/sw_5dp">
+
+            <ImageView
+                android:id="@+id/activiry_watch_the_record_home"
+                android:layout_width="@dimen/sw_45dp"
+                android:layout_height="@dimen/sw_60dp"
+                android:layout_marginRight="@dimen/sw_50dp"
+                android:layout_marginBottom="@dimen/sw_15dp"
+                android:background="@drawable/selector_ac_watch_the_but_01"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/activiry_watch_the_record_src"
+                android:layout_width="@dimen/sw_45dp"
+                android:layout_height="@dimen/sw_60dp"
+                android:layout_marginRight="@dimen/sw_25dp"
+                android:layout_marginBottom="@dimen/sw_15dp"
+                android:background="@drawable/selector_ac_watch_the_but_02"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/activiry_watch_the_record_esc"
+                android:layout_width="@dimen/sw_45dp"
+                android:layout_height="@dimen/sw_60dp"
+                android:layout_marginLeft="@dimen/sw_25dp"
+                android:layout_marginRight="@dimen/sw_40dp"
+                android:layout_marginBottom="@dimen/sw_15dp"
+                android:background="@drawable/selector_ac_watch_the_but_03"
+                android:focusable="true" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

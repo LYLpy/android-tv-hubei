@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scaleType="fitXY"
+    android:id="@+id/activity_main_bag"
+    tools:context="example.getlearn.tv.MainActivity">
+
+<RelativeLayout
+    android:layout_marginTop="@dimen/sw_10dp"
+    android:layout_marginLeft="@dimen/sw_50dp"
+    android:layout_marginRight="@dimen/sw_40dp"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/activity_main_logo"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/sw_180dp"
+        android:layout_height="@dimen/sw_70dp" />
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/activity_main_rec_layout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/sw_18dp"
+            android:textColor="@color/color_16"
+            android:id="@+id/activity_main_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/sw_18dp"
+            android:textColor="@color/color_16"
+            android:layout_below="@+id/activity_main_text_01"
+            android:id="@+id/activity_main_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:textSize="@dimen/sw_35dp"
+        android:textColor="@color/color_16"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/sw_3dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/activity_main_rec_layout_01"
+        android:id="@+id/activity_main_text_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/sw_50dp"
+        android:layout_marginRight="@dimen/sw_50dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <example.getlearn.tv.util.ImageViewMaxUtils
+                android:padding="@dimen/sw_10dp"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:id="@+id/activity_main_img_01"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sw_100dp" />
+            <example.getlearn.tv.util.ImageViewMaxUtils
+                android:padding="@dimen/sw_10dp"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:id="@+id/activity_main_img_02"
+                android:layout_weight="1"
+                android:background="@drawable/bg_border2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sw_100dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/activity_main_img_09_ll"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.stx.xhb.xbanner.XBanner
+                android:padding="@dimen/sw_5dp"
+                android:focusable="true"
+                android:overScrollMode="never"
+                android:id="@+id/activity_main_img_09"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sw_200dp"
+                android:background="@drawable/bg_border2"
+                app:AutoPlayTime="3000"
+                app:pointsContainerBackground="#00FFFFFF"
+                app:pointsPosition="CENTER"
+                app:tipTextColor="#FFFFFFFF"
+               />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <example.getlearn.tv.util.ImageViewMaxUtils
+                android:padding="@dimen/sw_10dp"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:id="@+id/activity_main_img_08"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sw_100dp" />
+            <example.getlearn.tv.util.ImageViewMaxUtils
+                android:padding="@dimen/sw_10dp"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:id="@+id/activity_main_img_07"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sw_100dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <example.getlearn.tv.util.ImageViewMaxUtils
+                android:padding="@dimen/sw_10dp"
+                android:focusable="true"
+                android:id="@+id/activity_main_img_13"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sw_100dp" />
+            <example.getlearn.tv.util.ImageViewMaxUtils
+                android:padding="@dimen/sw_10dp"
+                android:focusable="true"
+                android:id="@+id/activity_main_img_12"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sw_100dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <example.getlearn.tv.util.ImageViewMaxUtils
+            android:padding="@dimen/sw_10dp"
+            android:focusable="true"
+            android:scaleType="fitXY"
+            android:id="@+id/activity_main_img_03"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sw_100dp" />
+        <example.getlearn.tv.util.ImageViewMaxUtils
+            android:padding="@dimen/sw_10dp"
+            android:focusable="true"
+            android:scaleType="fitXY"
+            android:id="@+id/activity_main_img_10"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sw_100dp" />
+        <example.getlearn.tv.util.ImageViewMaxUtils
+            android:padding="@dimen/sw_10dp"
+            android:focusable="true"
+            android:scaleType="fitXY"
+            android:id="@+id/activity_main_img_06"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sw_100dp" />
+        <example.getlearn.tv.util.ImageViewMaxUtils
+            android:padding="@dimen/sw_10dp"
+            android:focusable="true"
+            android:id="@+id/activity_main_img_11"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sw_100dp" />
+    </LinearLayout>
+
+<!--    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            &lt;!&ndash;<LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <example.getlearn.tv.util.ImageViewMaxUtils
+                    android:padding="@dimen/sw_10dp"
+                    android:focusable="true"
+                    android:id="@+id/activity_main_img_04"
+                    android:src="@drawable/icohome"
+                    android:layout_width="@dimen/sw_110dp"
+                    android:layout_height="@dimen/sw_110dp" />
+                <example.getlearn.tv.util.ImageViewMaxUtils
+                    android:padding="@dimen/sw_10dp"
+                    android:focusable="true"
+                    android:id="@+id/activity_main_img_05"
+                    android:src="@drawable/icon_home"
+                    android:layout_width="@dimen/sw_110dp"
+                    android:layout_height="@dimen/sw_110dp" />
+            </LinearLayout>&ndash;&gt;
+    </RelativeLayout>-->
+
+
+</LinearLayout>

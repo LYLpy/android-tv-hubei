@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/sw_2dp"
+    android:layout_marginTop="@dimen/sw_10dp"
+    android:layout_marginLeft="@dimen/sw_10dp"
+    android:layout_marginRight="@dimen/sw_10dp"
+    android:background="@drawable/selector_watch_the_button_bg"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="@dimen/sw_100dp">
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="@drawable/imga_ba_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sw_98dp">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/nimg168_1"
+        android:id="@+id/adapter_wathc_the_record_item_img"
+        android:layout_width="@dimen/sw_100dp"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/sw_10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/adapter_wathc_the_record_item_title"
+            android:textSize="@dimen/sw_12dp"
+            android:textStyle="bold"
+
+            android:textColor="@color/color_white"
+            android:paddingTop="@dimen/sw_3dp"
+            android:layout_alignParentTop="true"
+        android:text="3, 铁棒磨成针"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/adapter_wathc_the_record_item_text"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/sw_8dp"
+            android:layout_alignParentBottom="true"
+            android:text="来自性概念书记。"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>
+
+</LinearLayout>

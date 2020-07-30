@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/adapter_primary_school_class_text"
+android:text="一年级"
+android:layout_marginTop="@dimen/sw_6dp"
+android:gravity="center"
+android:textSize="@dimen/sw_20dp"
+android:textColor="@color/color_white"
+android:layout_width="match_parent"
+android:layout_height="@dimen/sw_75dp">
+
+</TextView>
+    <!--android:background="@drawable/selector_adapter_primary_school_class_a"-->

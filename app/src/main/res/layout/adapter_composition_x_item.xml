@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<example.getlearn.tv.util.RelativeLayoutUtils
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/sw_5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--android:background="@drawable/selector_home_rel_01"-->
+    <!--android:padding="@dimen/sw_5dp"-->
+
+    <ImageView
+
+        android:scaleType="fitXY"
+        android:id="@+id/adapter_composition_x_item_imag"
+        android:layout_width="@dimen/sw_130dp"
+        android:layout_height="@dimen/sw_140dp" />
+
+
+</example.getlearn.tv.util.RelativeLayoutUtils>

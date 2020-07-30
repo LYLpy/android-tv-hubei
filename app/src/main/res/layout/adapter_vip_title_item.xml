@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<example.getlearn.tv.util.TexeViewUtils
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/adapter_vip_title_item_text"
+    android:layout_marginLeft="@dimen/sw_20dp"
+    android:gravity="center"
+    android:layout_marginRight="@dimen/sw_20dp"
+    android:layout_marginTop="@dimen/sw_16dp"
+    android:textStyle="bold"
+    android:textSize="@dimen/sw_28dp"
+    android:textColor="@drawable/selector_text_cloro_09"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />

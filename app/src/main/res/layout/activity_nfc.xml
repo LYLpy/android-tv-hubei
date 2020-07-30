@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.getlearn.tv.NFCActivity">
+
+
+    <TextView
+        android:focusable="true"
+        android:id="@+id/ac_nfc"
+        android:text="12233"
+        android:textSize="@dimen/sw_10dp"
+        android:layout_width="@dimen/sw_10dp"
+        android:layout_height="@dimen/sw_10dp" />
+
+</LinearLayout>

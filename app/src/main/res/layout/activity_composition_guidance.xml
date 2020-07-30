@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_composition_guidance_bg"
+    android:background="@color/color_03"
+    tools:context="example.getlearn.tv.view.activity.CompositionGuidanceActivity">
+    <!--android:background="@color/color_03"-->
+
+<LinearLayout
+    android:layout_marginBottom="@dimen/sw_10dp"
+    android:layout_marginTop="@dimen/sw_20dp"
+    android:layout_marginLeft="@dimen/sw_30dp"
+    android:orientation="vertical"
+    android:layout_width="@dimen/sw_750dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/activity_composition_guidance"
+            android:layout_width="@dimen/sw_150dp"
+            android:layout_height="@dimen/sw_150dp"
+             />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/sw_20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/activity_composition_text_title_01"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/sw_50dp"
+                android:text="小学语文作文指导 10集"
+                android:ellipsize="end"
+                android:maxEms="12"
+                android:maxLines="1"
+                android:textColor="@color/lb_browse_header_color"
+                android:textSize="@dimen/sw_27dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/activity_composition_text_title_02"
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:maxEms="12"
+                android:maxLines="2"
+                android:text="课程针对学生普遍害怕写作文的心理"
+                android:textColor="@drawable/button_text_max"
+                android:textSize="@dimen/sw_25dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/sw_8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/activity_composition_text_button_01"
+                    android:textColor="@color/color_white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sw_20dp"
+                    android:layout_marginRight="@dimen/sw_10dp"
+                    android:gravity="center"
+                    android:text="点 赞"
+                    android:layout_width="@dimen/sw_80dp"
+                    android:layout_height="@dimen/sw_35dp"
+                    android:background="@drawable/button_img_max"
+                    android:focusable="true" />
+
+                <TextView
+                    android:id="@+id/activity_composition_text_button_02"
+                    android:textColor="@color/color_white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sw_20dp"
+                    android:layout_marginRight="@dimen/sw_10dp"
+                    android:gravity="center"
+                    android:text="收 藏"
+                    android:layout_width="@dimen/sw_80dp"
+                    android:layout_height="@dimen/sw_35dp"
+                    android:background="@drawable/button_img_max"
+                    android:focusable="true" />
+
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/activity_composition_text_button_03"
+                    android:textColor="@color/color_white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sw_20dp"
+                    android:layout_marginRight="@dimen/sw_10dp"
+                    android:gravity="center"
+                    android:text="上 册"
+                    android:layout_width="@dimen/sw_80dp"
+                    android:layout_height="@dimen/sw_35dp"
+                    android:background="@drawable/button_img_max"
+                    android:focusable="true" />
+
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/activity_composition_text_button_04"
+                    android:textColor="@color/color_white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sw_20dp"
+                    android:layout_marginRight="@dimen/sw_10dp"
+                    android:gravity="center"
+                    android:text="下 册"
+                    android:layout_width="@dimen/sw_80dp"
+                    android:layout_height="@dimen/sw_35dp"
+                    android:background="@drawable/button_img_max"
+                    android:focusable="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:textColor="@color/color_white"
+        android:layout_marginTop="@dimen/sw_15dp"
+        android:textSize="@dimen/sw_25dp"
+        android:text="课程推荐"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <app.com.tvrecyclerview.TvRecyclerView
+        android:id="@+id/activity_composition_rec_list_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/sw_10dp"
+        android:clipChildren="false"
+        android:focusable="true"
+        app:isAutoProcessFocus="false"
+        app:scrollMode="followScroll"></app.com.tvrecyclerview.TvRecyclerView>
+
+
+</LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_marginBottom="@dimen/sw_50dp"
+        android:layout_marginLeft="@dimen/sw_80dp"
+        android:background="@drawable/bg_corners_01"
+        android:layout_marginTop="@dimen/sw_20dp"
+        android:layout_marginRight="@dimen/sw_80dp"
+        android:layout_width="@dimen/sw_350dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/activity_composition_text_01"
+            android:layout_marginTop="@dimen/sw_15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/sw_30dp"
+            android:textColor="@color/color_black"
+            android:text="@string/app_string_catalog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <app.com.tvrecyclerview.TvRecyclerView
+            android:layout_below="@+id/activity_composition_text_01"
+            android:layout_above="@+id/activity_composition_ll_01"
+            android:layout_marginLeft="@dimen/sw_15dp"
+            android:layout_marginRight="@dimen/sw_15dp"
+            android:layout_marginTop="@dimen/sw_8dp"
+            android:layout_marginBottom="@dimen/sw_8dp"
+            app:scrollMode="followScroll"
+            app:isAutoProcessFocus="false"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:focusable="true"
+            android:id="@+id/activity_composition_rec_list_02"
+            ></app.com.tvrecyclerview.TvRecyclerView>
+
+        <LinearLayout
+            android:id="@+id/activity_composition_ll_01"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/activity_composition_text_rec_up"
+                android:focusable="true"
+                android:layout_marginBottom="@dimen/sw_15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="@dimen/sw_20dp"
+                android:textColor="@drawable/button_text_max_01"
+                android:text="@string/app_string_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/sw_15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/activity_composition_text_page"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="@dimen/sw_20dp"
+                    android:textColor="@color/color_black"
+                    android:text="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/activity_composition_text_max"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="@dimen/sw_20dp"
+                    android:textColor="@color/color_black"
+                    android:text="/4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/activity_composition_text_rec_low"
+                android:focusable="true"
+                android:layout_marginBottom="@dimen/sw_15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="@dimen/sw_20dp"
+                android:textColor="@drawable/button_text_max_01"
+                android:text="@string/app_string_lower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/lb_browse_header_color" android:state_pressed="true" />
+    <item android:color="@color/lb_browse_header_color" android:state_focused="true" />
+    <item android:color="@color/lb_browse_header_color" android:state_selected="true" />
+    <!--<item android:color="@color/lb_playback_icon_highlight_no_theme" android:state_activated="true" />-->
+    <item android:color="@color/color_02" />
+
+</selector>

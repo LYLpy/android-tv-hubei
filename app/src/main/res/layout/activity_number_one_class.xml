@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/sw_30dp"
+    android:paddingBottom="@dimen/sw_30dp"
+    android:paddingRight="@dimen/sw_40dp"
+    android:paddingLeft="@dimen/sw_40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nimg1920_11"
+    android:id="@+id/activity_number_one_class_layout_bg"
+    tools:context="example.getlearn.tv.view.activity.NumberOneClassActivity">
+
+    <LinearLayout
+        android:layout_marginRight="@dimen/sw_20dp"
+        android:gravity="center_horizontal"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/activity_number_one_class_rua_imag"
+            android:layout_width="@dimen/sw_140dp"
+            android:layout_height="@dimen/sw_140dp" />
+
+        <TextView
+            android:layout_marginTop="@dimen/dp_10"
+            android:gravity="center"
+            android:textSize="@dimen/sw_16dp"
+            android:id="@+id/activity_number_one_class_title"
+            android:textColor="@color/color_white"
+            android:text="动物专题"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+<android.support.v7.widget.RecyclerView
+    android:layout_marginTop="@dimen/dp_10"
+    android:focusable="true"
+    android:id="@+id/activity_number_one_class_rec_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/sw_80dp"
+        android:layout_marginBottom="@dimen/sw_80dp"
+        android:layout_weight="4.9"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<TextView
+    android:background="@drawable/bg11_2"
+    android:layout_width="@dimen/sw_1dp"
+    android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/sw_20dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="3.2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/sw_18dp"
+                android:text="大熊猫"
+                android:id="@+id/activity_number_one_class_title_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/activity_number_one_class_title_03"
+                android:textSize="@dimen/sw_13dp"
+                android:textColor="@color/color_10"
+                android:layout_marginLeft="@dimen/sw_10dp"
+                android:text="共666个课程"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_gravity="center"
+                android:background="@drawable/bg13_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sw_1dp"></View>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:focusable="true"
+            android:id="@+id/activity_number_one_class_rec_base"
+            android:layout_weight="1"
+            app:scrollMode="followScroll"
+            app:isAutoProcessFocus="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/sw_10dp"
+
+            android:layout_weight="3"
+            android:id="@+id/activity_watch_the_record_ll_02"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/activity_watch_the_record_text_but_up"
+                    android:background="@drawable/selector_home_rel_02"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:textColor="@color/color_white"
+                    android:text="@string/app_string_up"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sw_20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/activity_number_one_class_text_01"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:textColor="@color/color_white"
+                        android:text="1"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/sw_20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/activity_number_one_class_text_02"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:textColor="@color/color_white"
+                        android:text="/3"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/sw_20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/activity_watch_the_record_text_but_low"
+                    android:background="@drawable/selector_home_rel_02"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:textColor="@color/color_white"
+                    android:text="@string/app_string_lower"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sw_20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="right"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/activiry_watch_the_record_home"
+                    android:focusable="true"
+                    android:layout_marginRight="@dimen/sw_50dp"
+                    android:background="@drawable/selector_ac_watch_the_but_01"
+                    android:layout_width="@dimen/sw_40dp"
+                    android:layout_height="@dimen/sw_60dp" />
+                <ImageView
+                    android:id="@+id/activiry_watch_the_record_src"
+                    android:focusable="true"
+                    android:layout_marginRight="@dimen/sw_25dp"
+                    android:background="@drawable/selector_ac_watch_the_but_02"
+                    android:layout_width="@dimen/sw_40dp"
+                    android:layout_height="@dimen/sw_60dp" />
+                <ImageView
+                    android:id="@+id/activiry_watch_the_record_esc"
+                    android:focusable="true"
+                    android:layout_marginRight="@dimen/sw_40dp"
+                    android:layout_marginLeft="@dimen/sw_25dp"
+                    android:background="@drawable/selector_ac_watch_the_but_03"
+                    android:layout_width="@dimen/sw_40dp"
+                    android:layout_height="@dimen/sw_60dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

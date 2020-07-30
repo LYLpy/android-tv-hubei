@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.getlearn.tv.view.activity.DialogActivity">
+
+    <RelativeLayout
+        android:background="@drawable/activity_dialog_bag"
+        android:id="@+id/dialog_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="@dimen/sw_20dp"
+            android:id="@+id/activity_dialog_title"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/sw_22dp"
+            android:textColor="@color/color_white"
+            android:text="请确认是否要全部清除！"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginTop="@dimen/sw_20dp"
+            android:id="@+id/activity_dialog_imag"
+            android:layout_below="@+id/activity_dialog_title"
+            android:background="@drawable/bg13_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sw_1dp" />
+
+        <RelativeLayout
+            android:padding="@dimen/sw_10dp"
+            android:layout_marginTop="@dimen/sw_10dp"
+            android:layout_below="@+id/activity_dialog_imag"
+            android:id="@+id/activity_search_title_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginBottom="@dimen/sw_10dp"
+                android:gravity="center"
+                android:focusable="true"
+                android:layout_marginRight="@dimen/sw_20dp"
+                android:background="@drawable/selector_activity_dialog_text_but"
+                android:layout_toLeftOf="@+id/activity_search_view_01"
+                android:id="@+id/activity_text_button_qx"
+                android:textColor="@color/color_white"
+                android:text="@string/app_string_button_cancel"
+                android:textSize="@dimen/sw_22dp"
+                android:layout_width="@dimen/sw_100dp"
+                android:layout_height="@dimen/sw_30dp" />
+
+            <View
+                android:layout_marginBottom="@dimen/sw_10dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/activity_search_view_01"
+                android:layout_width="@dimen/sw_1dp"
+                android:layout_height="@dimen/sw_1dp"></View>
+
+            <TextView
+                android:layout_marginBottom="@dimen/sw_10dp"
+                android:focusable="true"
+                android:gravity="center"
+                android:textSize="@dimen/sw_15dp"
+                android:background="@drawable/selector_activity_dialog_text_but"
+                android:layout_marginLeft="@dimen/sw_20dp"
+                android:layout_toRightOf="@+id/activity_search_view_01"
+                android:id="@+id/activity_text_button_ent"
+                android:textColor="@color/color_white"
+                android:text="@string/app_string_button_confirm"
+                android:layout_width="@dimen/sw_100dp"
+                android:layout_height="@dimen/sw_30dp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/dialog_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activity_dialog_bag"
+        >
+
+
+        <TextView
+            android:layout_marginTop="@dimen/sw_20dp"
+            android:id="@+id/activity_dialog_title_02"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/sw_10dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/sw_22dp"
+            android:textColor="@color/color_white"
+            android:text="请确认是否要全部清除！"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginTop="@dimen/sw_20dp"
+            android:id="@+id/activity_dialog_imag_02"
+            android:layout_below="@+id/activity_dialog_title_02"
+            android:background="@drawable/bg13_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sw_1dp" />
+
+        <RelativeLayout
+            android:padding="@dimen/sw_10dp"
+            android:layout_below="@+id/activity_dialog_imag_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:textSize="@dimen/sw_22dp"
+                android:background="@drawable/selector_text_but_bag"
+                android:layout_marginLeft="@dimen/sw_20dp"
+                android:id="@+id/activity_text_button_ent_02"
+                android:textColor="@color/color_white"
+                android:text="@string/app_string_button_confirm"
+                android:layout_width="@dimen/sw_100dp"
+                android:layout_height="@dimen/sw_30dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

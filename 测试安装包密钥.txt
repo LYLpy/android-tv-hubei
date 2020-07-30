@@ -1,0 +1,3 @@
+别名：get
+密码：123456zlw
+文件名：newTest.jks

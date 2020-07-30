@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<example.getlearn.tv.util.LinearLayoutUtils
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/adapter_search_one_adapter_layout"
+    android:layout_width="@dimen/sw_50dp"
+    android:layout_height="@dimen/sw_50dp">
+
+    <TextView
+        android:id="@+id/adapter_search_one_adapter_text"
+        android:textSize="@dimen/sw_20dp"
+        android:textStyle="bold"
+        android:text="G"
+        android:textColor="@color/color_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</example.getlearn.tv.util.LinearLayoutUtils>

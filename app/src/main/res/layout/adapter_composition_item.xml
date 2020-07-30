@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="@dimen/sw_7dp"
+        android:layout_marginBottom="@dimen/sw_5dp"
+        android:layout_marginLeft="@dimen/sw_11dp"
+        android:background="@drawable/selector_home_01"
+        android:layout_marginRight="@dimen/sw_11dp"
+        android:padding="@dimen/sw_5dp"
+        android:textColor="@drawable/selector_threepage_font_color"
+        android:textSize="@dimen/sw_22dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:maxEms="10"
+        android:id="@+id/adapter_com_text_01"
+        android:text="考场作文分析"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />

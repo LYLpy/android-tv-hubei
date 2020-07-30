@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<example.getlearn.tv.util.RelativeLayoutUtils
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:layout_margin="@dimen/sw_3dp"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--android:background="@drawable/selector_home_rel_01"-->
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/adapter_teaching_materail_bate_item_01"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sw_175dp" />
+
+</example.getlearn.tv.util.RelativeLayoutUtils>

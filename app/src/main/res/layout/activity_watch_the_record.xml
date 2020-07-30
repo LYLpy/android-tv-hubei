@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_watch_the_record_rec_laytou_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.getlearn.tv.view.activity.WatchTheRecordActivity">
+<RelativeLayout
+    android:layout_marginTop="@dimen/sw_10dp"
+    android:id="@+id/activity_watch_the_record_relayout_01"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sw_50dp">
+<TextView
+    android:layout_alignParentBottom="true"
+    android:id="@+id/activity_watch_the_record_text_01"
+    android:layout_marginLeft="@dimen/sw_25dp"
+    android:textStyle="bold"
+    android:textSize="@dimen/sw_28dp"
+    android:textColor="@color/color_white"
+    android:text="@string/app_string_watch"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/activity_watch_the_record_text_01"
+        android:id="@+id/activity_watch_the_record_text_02"
+        android:layout_marginLeft="@dimen/sw_25dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/sw_20dp"
+        android:textColor="@color/color_16"
+        android:text="共0个视频"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/sw_30dp"
+        android:layout_above="@+id/view_01"
+        android:layout_marginRight="@dimen/sw_25dp"
+        android:layout_marginLeft="@dimen/sw_25dp"
+        android:layout_marginTop="@dimen/sw_20dp"
+        android:layout_below="@+id/activity_watch_the_record_relayout_01"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:background="@drawable/ico6_2"
+                android:src="@drawable/ico6_2"
+                android:layout_width="@dimen/sw_40dp"
+                android:layout_height="@dimen/sw_40dp" />
+            <ImageView
+                android:layout_marginBottom="@dimen/sw_5dp"
+                android:background="@color/color_06"
+                android:layout_width="@dimen/sw_1dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/activity_watch_the_record_text_06"
+                android:layout_marginTop="@dimen/sw_5dp"
+                android:layout_marginLeft="@dimen/sw_10dp"
+                android:textSize="@dimen/sw_18dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_white"
+                android:text="2018年07月20日 星期五"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/activity_wathc_the_record_rec_list"
+                android:focusable="true"
+                android:layout_marginTop="@dimen/sw_15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="@dimen/sw_20dp"
+        android:background="@color/color_06"
+        android:layout_above="@+id/activity_watch_the_record_ll_02"
+        android:id="@+id/view_01"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sw_1dp"></View>
+    <LinearLayout
+        android:id="@+id/activity_watch_the_record_ll_02"
+
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/watch_record_page"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/activity_watch_the_record_text_but_up"
+                android:background="@drawable/selector_home_rel_02"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:textColor="@color/color_white"
+                android:text="@string/app_string_up"
+                android:textStyle="bold"
+                android:textSize="@dimen/sw_22dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/activity_watch_the_record_text_03"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textColor="@color/color_white"
+                    android:text="1"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sw_22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/activity_watch_the_record_text_04"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:textColor="@color/color_white"
+                    android:text="/3"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sw_22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/activity_watch_the_record_text_but_low"
+                android:background="@drawable/selector_home_rel_02"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:textColor="@color/color_white"
+                android:text="@string/app_string_lower"
+                android:textStyle="bold"
+                android:textSize="@dimen/sw_22dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="right"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/activiry_watch_the_record_home"
+                android:focusable="true"
+                android:layout_marginRight="@dimen/sw_50dp"
+                android:background="@drawable/selector_ac_watch_the_but_01"
+                android:layout_width="@dimen/sw_35dp"
+                android:layout_height="@dimen/sw_50dp" />
+            <ImageView
+                android:id="@+id/activiry_watch_the_record_src"
+                android:focusable="true"
+                android:layout_marginRight="@dimen/sw_25dp"
+                android:background="@drawable/selector_ac_watch_the_but_02"
+                android:layout_width="@dimen/sw_35dp"
+                android:layout_height="@dimen/sw_50dp"  />
+            <ImageView
+                android:id="@+id/activiry_watch_the_record_esc"
+                android:focusable="true"
+                android:layout_marginRight="@dimen/sw_40dp"
+                android:layout_marginLeft="@dimen/sw_25dp"
+                android:background="@drawable/selector_ac_watch_the_but_03"
+                android:layout_width="@dimen/sw_35dp"
+                android:layout_height="@dimen/sw_50dp"  />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
